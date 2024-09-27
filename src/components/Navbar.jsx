@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 function Navbar() {
-  const selector = useSelector((state) => state.carts.cart); // Use useSelector to get Redux state
+  const selector = useSelector((state) => state.carts.cart);
   const [totalQuantity, setTotalQuantity] = useState(0);
   const [totalPrice, setTotalPrice] = useState(0);
 
