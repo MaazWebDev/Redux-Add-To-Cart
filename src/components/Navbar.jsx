@@ -24,8 +24,8 @@ function Navbar() {
   return (
     <div>
       <div className="navbar bg-base-300 fixed top-0 z-10">
-        <div className="flex-1">
-          <a className="btn btn-ghost text-xl"><Link to="/">Redux E-Commerce</Link></a>
+      <div className="flex-1">
+          <Link to="/" className="btn btn-ghost text-xl">Redux E-Commerce</Link>
         </div>
         <div className="flex gap-[15px]">
         <h4>
